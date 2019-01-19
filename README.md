@@ -1,3 +1,12 @@
+# highlight of this project
+
+create axios client
+use splash as an exercise
+Use React Ref to calculate the height of each image
+Use CSS Grid for showing images
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

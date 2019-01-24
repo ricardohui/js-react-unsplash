@@ -1,10 +1,10 @@
-import App from "./App";
+import ImageCard from "./ImageCard";
 import * as React from "react";
 
 import { shallow } from "enzyme";
 
 it("can renders without crashing using enzyme", () => {
-  const wrapper = shallow(<App />);
+  const wrapper = shallow(<ImageCard />);
 
-  expect(wrapper.find(".container")).toHaveLength(1);
+  expect(wrapper.text()).toBe("ImageCard");
 });

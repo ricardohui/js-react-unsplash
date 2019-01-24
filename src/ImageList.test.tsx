@@ -1,10 +1,10 @@
-import App from "./App";
+import ImageList from "./ImageList";
 import * as React from "react";
 
 import { shallow } from "enzyme";
 
 it("can renders without crashing using enzyme", () => {
-  const wrapper = shallow(<App />);
+  const wrapper = shallow(<ImageList />);
 
-  expect(wrapper.find(".container")).toHaveLength(1);
+  expect(wrapper.text()).toEqual("ImageList");
 });

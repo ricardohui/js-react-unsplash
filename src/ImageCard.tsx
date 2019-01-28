@@ -1,6 +1,12 @@
 import * as React from "react";
-class ImageCard extends React.Component {
-  constructor(props: {}) {
+
+interface Iprops {
+  alt: string;
+  key: string;
+  url: { regular: string };
+}
+class ImageCard extends React.Component<Iprops> {
+  constructor(props: Iprops) {
     super(props);
   }
   public render() {

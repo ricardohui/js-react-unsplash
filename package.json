@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@types/enzyme-adapter-react-16": "^1.0.3",
+    "axios": "^0.14.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts-ts": "3.1.0",
